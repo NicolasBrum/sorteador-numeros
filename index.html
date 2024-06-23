@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/Base/reset.css" rel="stylesheet">
+    <link href="/css/Layout/style.css" rel="stylesheet">
+    <title>Sorteador de números</title>
+</head>
+<body>
+    <header></header>
+    <main class="main__container">
+        <div id="info__container">
+            <div id="number__container">
+                <div id="info__content">
+                    <h1 class="title__container">Sorteador de <span class="green__title__container">números</span></h1>
+                    <label class="text__container">Quantidade de números</label>
+                    <input type="number" class="input__container" id="amount" min="1">
+                    <label class="text__container">Do número</label>
+                    <input type="number" class="input__container" id="from" min="1">
+                    <label class="text__container">Até o número</label>
+                    <input type="number" class="input__container" id="to" min="1">
+                    <div id="button__container">
+                        <button class="btn-config" onclick="generateNumber()">Sortear</button>
+                        <button class="btn-config" id="btn-restart" onclick="restart()">Reiniciar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sort__numbers__container">
+                <div id="sort__numbers__content">
+                    <h1 class="title__container">Números <span class="green__title__container">sorteados</span></h1>
+                    <p class="sort__number" id="sort-number"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/app.js" defer></script>
+</body>
+</html>

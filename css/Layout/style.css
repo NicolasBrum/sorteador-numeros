@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+}
+
+/* Containers */
+
+#info__container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#number__container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#info__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.green__title__container{
+    color: green;
+}
+
+.title__container, .text__container, .sort__number{
+    color: white;
+}
+
+/* Buttons */
+
+#button__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-config{
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
+
+.btn-config-disabled{
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.btn-config:hover{
+    background-color: gray;
+}
+
+/* Inputs */
+
+.input__container{
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 20px;
+    color: green;
+}
+
+.text__container{
+    display: block;
+    font-size: 20px;
+}
+
+/* Numbers container */
+
+.sort__numbers__container{
+    width: 300px;
+    height: 500px;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#sort__numbers__content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    align-items: center;
+}
+
+.sort__number{
+    width: 100%;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
